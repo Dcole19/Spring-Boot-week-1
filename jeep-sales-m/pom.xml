@@ -37,6 +37,28 @@
 			<version>1.6.9</version>
 		</dependency>
 
+    <!-- Database dependencies ======================  --> 
+<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jdbc -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-data-jdbc</artifactId>
+    </dependency>
+    
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    </dependency>
+    
+<!-- Test dependencies ========================================= -->
+
+<!-- https://mvnrepository.com/artifact/com.h2database/h2 -->
+<dependency>
+    <groupId>com.h2database</groupId>
+    <artifactId>h2</artifactId>
+    <scope>test</scope>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -45,11 +67,14 @@
 			<optional>true</optional>
 		</dependency>
 
+		
+		
 		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<optional>true</optional>
-		</dependency>
+  <groupId>org.projectlombok</groupId>
+  <artifactId>lombok</artifactId>
+  <version>1.18.20</version>
+  <scope>provided</scope>
+</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
