@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: root
+    username: Lcdk9181!
+    url: jdbc:mysql://localhost:3306/Kayak-sales
+logging:
+  level:
+    root: warn
+    '[com.promineotech.kayak]': debug
+    
